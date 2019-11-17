@@ -1,21 +1,14 @@
 import React from "react";
 import Terminal from "../components/displays/Terminal";
 import CardList from "../components/cards/CardList";
-
+import Banner from "../components/banner/Banner";
 export default function Home() {
     return (
         <div className="page" style={{ textAlign: "center" }}>
-            <p className="page-title">Simple OAuth with Node.js</p>
-            <p style={{ fontSize: 20 }}>
-                Passport.js contains support for over
-                <span style={{ color: "var(--primary-red)" }}> 500+ </span>
-                Get started today with just a username and password for apps like
-                Facebook, Instagram, and Google.
-            </p>
+          <Banner/>
             <Terminal userData={"passport.authenticate('facebook')"} selected="All" />
-            <p style={{ fontSize: 28 }}>Popular Strategies</p>
+            <h1 style={{ fontSize: 28, margin: "2em" }} className="ta-c p-h200 t--intro">Popular Strategies</h1>
             <CardList />
-            <div style={{ marginBottom: 20 }} />
         </div>
     );
 }

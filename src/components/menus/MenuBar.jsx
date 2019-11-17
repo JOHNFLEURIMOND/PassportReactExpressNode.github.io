@@ -31,7 +31,7 @@ const MenuBar = () => {
 
             {
                 _.isEmpty(userData) &&
-                <a className="btn menu-btn disabled" href="/">
+                <a className="disabled" href="/">
                     <img
                         src={PassportLogo}
                         alt="passport.js logo"

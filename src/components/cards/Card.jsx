@@ -10,7 +10,7 @@ const Card = ({ img, name, href, color }) => {
             onClick={() => window.location = href}
         >
             <div>
-                <p style={{ margin: 0, textAlign: "left", padding: "5px 0px 5px 10px" }}>
+                <p style={{ margin: 0, textAlign: "center", padding: "5px 0px 5px 10px" }} className="ta-c p-h200 t--intro">
                     {NAME}
                 </p>
             </div>

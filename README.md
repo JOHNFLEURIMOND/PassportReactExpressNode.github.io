@@ -7,9 +7,9 @@
  This application is written in React.js, Express, Passport, 
 
 ## Lessons Learned:
-Learned how to add OAuth2 login authentication to my app with some of your favorite socials including Facebook, Instagram, Google, Twitch, Github, and Amazon!
+Learned how to add OAuth2 login authentication to my app with some of your favorite socials including Facebook, Instagram, Google, Twitch, Github, and Amazon as well as diving deeper with React Hooks.
 
-I used React.js for our web app, Passport.js for the login authentication, and Node.js for our api server.
+I used React Hooks for my web app, Passport.js for the login authentication, and Node.js for our api server.
 ## portfolio:
 
 **WEBSITE:** ![](https:/johnfleurimond.com)

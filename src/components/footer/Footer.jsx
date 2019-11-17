@@ -6,7 +6,7 @@ import YouTube from "../../res/footer-youtube.png";
 const Footer = () => {
     return (
         <div className="footer">
-            <span>
+            <span className="ta-c p-h200 t--intro" style={{color: "white"}}>
                 Developed by John Fleurimond© 2019
             </span>
             <IconLink
