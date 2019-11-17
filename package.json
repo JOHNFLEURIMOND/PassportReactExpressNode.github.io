@@ -1,0 +1,61 @@
+{
+  "name": "passport",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "history": "^4.10.1",
+    "react": "^16.8.6",
+    "react-animated-css": "^1.2.1",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.0.1",
+    "react-spring": "^8.0.27"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
+    "lint-staged": "^7.0.4",
+    "nodemon": "^1.19.1",
+    "npm-run-all": "^4.1.5",
+    "passport": "^0.4.0",
+    "passport-amazon": "^1.0.0",
+    "passport-facebook": "^3.0.0",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-instagram": "^1.0.0",
+    "passport-spotify": "^1.0.1",
+    "passport-twitch.js": "0.0.7",
+    "prettier": "^1.12.0"
+    },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "nodemon index.js",
+    "prettier": "prettier --write src/**/*.{ts,tsx,js,css}",
+    "prettier-watch": "onchange  '**/*.{ts,tsx,js,css}' -- prettier --write {{changed}}"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --quiet"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
