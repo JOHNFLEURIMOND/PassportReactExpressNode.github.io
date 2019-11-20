@@ -4,16 +4,39 @@
 
 
 # How It's Made:
- This application is written with React.js, Express, Passport, 
+ This application is written with React.js, Express, Passport.
+
+ # How It's Works:
+1.) A user can log in via whatever their prefered social media they would like to use to log in.
+
+2.) See the user JSON data once logged in 
 
 ## Lessons Learned:
-Learned how to add OAuth2 login authentication to my app with some of your favorite socials including Facebook, Instagram, Google, Twitch, Github, and Amazon with React Hooks. I have done OAuth before but with regular HTML, CSS, JavaScript. That's when I first started building backends with Express, Morgan, Mongoose, Body-parser, Cookie-parser and Passport.  Check out this old app I created almost two years ago!
+Learned how to add OAuth2 login authentication to my app with some of your favorite socials including Facebook, Instagram, Google, Twitch, Github, and Amazon with React Hooks. This isn't my first time doin OAuth Login authentication. I have done OAuth before but with EJS, which stands for Embedded JavaScript templating, lets you generate HTML markup with plain JavaScript. That's when I first started building backends with Express, Morgan, Mongoose, Body-parser, Cookie-parser and Passport.  Check out this old app I created almost two years ago!
+Ejs Example:
+
+```  <ul class="orders">
+  <% for(var i=0; i<orders.length; i++) {%>
+    <li class="order">
+      <span><%= orders[i].name %></span>
+      <span><%= orders[i].order %></span>
+      <span><%= orders[i].size %></span>
+      <span><%= orders[i].cream %></span>
+      <span><%= orders[i].milk %></span>
+      <span><%= orders[i].sugar %></span>
+      <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+      <span><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+    </li>
+  <% } %>
+  </ul>
+```
+
 
 https://github.com/JOHNFLEURIMOND/cafe-signin
 
 This time around, I used React Hooks for my web app, Passport.js for the login authentication, and Node.js for our api server. I learned how to effeciently set up a proxy for the backend. There wasn't that much that changed just less code thats for sure but this wasn't hard to get going!
 
-React Way
+New Syntax for Passport
 
 ```// Facebook Strategy
 passport.use(new FacebookStrategy({
@@ -28,7 +51,7 @@ passport.use(new FacebookStrategy({
     }));
 ``` 
 
-VS EJS, HTML, CSS, JAVASCRIPT
+VS Old Syntax For Passport
 
 ```  passport.use('local-login', new LocalStrategy({
         // by default, local strategy uses username and password, we will override with email
