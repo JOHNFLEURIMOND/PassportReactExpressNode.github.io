@@ -10,7 +10,8 @@ import "./style/index.css";
 
 export default function App() {
     return (
-        <Router history={history}>
+        <div className="page">
+ <Router history={history}>
         <UserProvider>
             <Route path="/" component={MenuBar} />
             <Route path="/profile" component={Profile} />
@@ -18,5 +19,7 @@ export default function App() {
         <Route path="/" exact component={Home} />
         <Route path="/" exact component={Footer} />
     </Router>
+        </div>
+       
     )
 }

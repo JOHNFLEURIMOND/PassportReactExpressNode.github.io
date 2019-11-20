@@ -1,15 +1,63 @@
 # What it should look like:
 
-![Fleurimond](./public/Lemons.png)
+![Fleurimond](./public/PASSPORT.png)
 
 
 # How It's Made:
- This application is written in React.js, Express, Passport, 
+ This application is written with React.js, Express, Passport, 
 
 ## Lessons Learned:
-Learned how to add OAuth2 login authentication to my app with some of your favorite socials including Facebook, Instagram, Google, Twitch, Github, and Amazon as well as diving deeper with React Hooks.
+Learned how to add OAuth2 login authentication to my app with some of your favorite socials including Facebook, Instagram, Google, Twitch, Github, and Amazon with React Hooks. I have done OAuth before but with regular HTML, CSS, JavaScript. That's when I first started building backends with Express, Morgan, Mongoose, Body-parser, Cookie-parser and Passport.  Check out this old app I created almost two years ago!
 
-I used React Hooks for my web app, Passport.js for the login authentication, and Node.js for our api server.
+https://github.com/JOHNFLEURIMOND/cafe-signin
+
+This time around, I used React Hooks for my web app, Passport.js for the login authentication, and Node.js for our api server. I learned how to effeciently set up a proxy for the backend. There wasn't that much that changed just less code thats for sure but this wasn't hard to get going!
+
+React Way
+
+```// Facebook Strategy
+passport.use(new FacebookStrategy({
+        clientID: keys.FACEBOOK.clientID,
+        clientSecret: keys.FACEBOOK.clientSecret,
+        callbackURL: "/auth/facebook/callback"
+    },
+    (accessToken, refreshToken, profile, cb) => {
+        console.log(chalk.blue(JSON.stringify(profile)));
+        user = { ...profile };
+        return cb(null, profile);
+    }));
+```
+VS. None React Way
+
+```  passport.use('local-login', new LocalStrategy({
+        // by default, local strategy uses username and password, we will override with email
+        usernameField : 'email',
+        passwordField : 'password',
+        passReqToCallback : true // allows us to pass back the entire request to the callback
+    },
+    function(req, email, password, done) { // callback with email and password from our form
+
+        // find a user whose email is the same as the forms email
+        // we are checking to see if the user trying to login already exists
+        User.findOne({ 'local.email' :  email }, function(err, user) {
+            // if there are any errors, return the error before anything else
+            if (err)
+                return done(err);
+
+            // if no user is found, return the message
+            if (!user)
+                return done(null, false, req.flash('loginMessage', 'No user found.')); // req.flash is the way to set flashdata using connect-flash
+
+            // if the user is found but the password is wrong
+            if (!user.validPassword(password))
+                return done(null, false, req.flash('loginMessage', 'Oops! Wrong password.')); // create the loginMessage and save it to session as flashdata
+
+            // all is well, return successful user
+            return done(null, user);
+        });
+
+    }));
+```
 ## portfolio:
 
 **WEBSITE:** ![](https:/johnfleurimond.com)
@@ -23,7 +71,7 @@ I used React Hooks for my web app, Passport.js for the login authentication, and
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
