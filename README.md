@@ -84,7 +84,7 @@ passport.use('local-login', new LocalStrategy({
 ```
 ## portfolio:
 
-**WEBSITE:** ![johnfleurimond](./public/favicon.ico)(http://johnfleurimond.com)
+**WEBSITE:** ![johnfleurimond](http://johnfleurimond.com)
 
 ## Installation
 
