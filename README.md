@@ -26,8 +26,9 @@ passport.use(new FacebookStrategy({
         user = { ...profile };
         return cb(null, profile);
     }));
-```
-VS. None React Way
+``` 
+
+VS EJS, HTML, CSS, JAVASCRIPT
 
 ```  passport.use('local-login', new LocalStrategy({
         // by default, local strategy uses username and password, we will override with email
