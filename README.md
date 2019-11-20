@@ -60,7 +60,7 @@ VS. None React Way
 ```
 ## portfolio:
 
-**WEBSITE:** ![](https:/johnfleurimond.com)
+**WEBSITE:** ![johnfleurimond](https:/johnfleurimond.com)
 
 ## Installation
 
