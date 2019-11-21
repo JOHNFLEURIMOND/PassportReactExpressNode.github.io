@@ -1,17 +1,17 @@
-# What it should look like:
+# What it should look like: 
 
 ![Fleurimond](./public/PASSPORT.png)
 
 
-# How It's Made:
+# How It's Made :nut_and_bolt:🔨 :hammer::wrench::
  This application is written with React.js, Express, Passport.
 
- # How It's Works:
+ # How It's Works:white_check_mark::
 1.) A user can log in via whatever their prefered social media they would like to use to log in.
 
 2.) See the user JSON data once logged in 
 
-## Lessons Learned:
+## Lessons Learned :mortar_board::
 Learned how to add OAuth2 login authentication to my app with some of your favorite socials including Facebook, Instagram, Google, Twitch, Github, and Amazon with React Hooks. This isn't my first time doin OAuth Login authentication. I have done OAuth before but with EJS, which stands for Embedded JavaScript templating, lets you generate HTML markup with plain JavaScript. That's when I first started building backends with Express, Morgan, Mongoose, Body-parser, Cookie-parser and Passport.  Check out this old app I created almost two years ago!
 Ejs Example:
 
@@ -36,7 +36,7 @@ https://github.com/JOHNFLEURIMOND/cafe-signin
 
 This time around, I used React Hooks for my web app, Passport.js for the login authentication, and Node.js for our api server. I learned how to effeciently set up a proxy for the backend. There wasn't that much that changed just less code thats for sure but this wasn't hard to get going!
 
-New Syntax for Passport
+New Syntax for Passport :dvd:
 
 ```// Facebook Strategy
 passport.use(new FacebookStrategy({
@@ -51,7 +51,7 @@ passport.use(new FacebookStrategy({
     }));
 ``` 
 
-VS Old Syntax For Passport
+VS Old Syntax For Passport :floppy_disk:
 
 ```   // by default, local strategy uses username and password, we will override with email
 passport.use('local-login', new LocalStrategy({
@@ -84,7 +84,9 @@ passport.use('local-login', new LocalStrategy({
 ```
 ## portfolio:
 
-**WEBSITE:** ![johnfleurimond](http://johnfleurimond.com)
+** :computer:   WEBSITE:** [John Fleurimond](http://johnfleurimond.com)
+
+# How To Get It Started:
 
 ## Installation
 
