@@ -1,4 +1,4 @@
-# :checkered_flag:What it should look like :checkered_flag:: 
+# :checkered_flag:What It Looks Like :checkered_flag:: 
 
 ![Fleurimond](./public/PASSPORT.png)
 
@@ -82,7 +82,7 @@ passport.use('local-login', new LocalStrategy({
 
     }));
 ```
-## portfolio:
+# Portfolio :open_file_folder::
 
 ** :computer:   WEBSITE:** [John Fleurimond](http://johnfleurimond.com)
 
