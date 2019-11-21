@@ -1,4 +1,4 @@
-# What it should look like: 
+# :checkered_flag:What it should look like :checkered_flag:: 
 
 ![Fleurimond](./public/PASSPORT.png)
 
@@ -86,7 +86,7 @@ passport.use('local-login', new LocalStrategy({
 
 ** :computer:   WEBSITE:** [John Fleurimond](http://johnfleurimond.com)
 
-# How To Get It Started:
+# How To Get It Started :arrow_forward: :
 
 ## Installation
 
