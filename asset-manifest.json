@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/static/css/main.9f41e47c.chunk.css",
-    "main.js": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/static/js/main.c7652043.chunk.js",
-    "runtime-main.js": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/static/js/runtime-main.20dbb08c.js",
-    "static/js/2.2fec15be.chunk.js": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/static/js/2.2fec15be.chunk.js",
-    "index.html": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/index.html",
-    "precache-manifest.f77487ac1612b786a07c568b4f6d111b.js": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/precache-manifest.f77487ac1612b786a07c568b4f6d111b.js",
-    "service-worker.js": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/service-worker.js",
-    "static/js/2.2fec15be.chunk.js.LICENSE": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/static/js/2.2fec15be.chunk.js.LICENSE",
-    "static/media/footer-github.png": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/static/media/footer-github.f6fb6f5d.png",
-    "static/media/instagram.png": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/static/media/instagram.d566a5b6.png",
-    "static/media/spotify.png": "/JOHNFLEURIMOND/PassportReactExpressNode.github.io/static/media/spotify.5044823b.png"
+    "main.css": "/PassportReactExpressNode.github.io/static/css/main.9f41e47c.chunk.css",
+    "main.js": "/PassportReactExpressNode.github.io/static/js/main.c7652043.chunk.js",
+    "runtime-main.js": "/PassportReactExpressNode.github.io/static/js/runtime-main.9f460f3f.js",
+    "static/js/2.2fec15be.chunk.js": "/PassportReactExpressNode.github.io/static/js/2.2fec15be.chunk.js",
+    "index.html": "/PassportReactExpressNode.github.io/index.html",
+    "precache-manifest.b4be3fb043796c730ed21c129954ddf8.js": "/PassportReactExpressNode.github.io/precache-manifest.b4be3fb043796c730ed21c129954ddf8.js",
+    "service-worker.js": "/PassportReactExpressNode.github.io/service-worker.js",
+    "static/js/2.2fec15be.chunk.js.LICENSE": "/PassportReactExpressNode.github.io/static/js/2.2fec15be.chunk.js.LICENSE",
+    "static/media/footer-github.png": "/PassportReactExpressNode.github.io/static/media/footer-github.f6fb6f5d.png",
+    "static/media/instagram.png": "/PassportReactExpressNode.github.io/static/media/instagram.d566a5b6.png",
+    "static/media/spotify.png": "/PassportReactExpressNode.github.io/static/media/spotify.5044823b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.20dbb08c.js",
+    "static/js/runtime-main.9f460f3f.js",
     "static/js/2.2fec15be.chunk.js",
     "static/css/main.9f41e47c.chunk.css",
     "static/js/main.c7652043.chunk.js"
