@@ -1,7 +1,9 @@
 # :checkered_flag:What It Looks Like :checkered_flag:: 
 
-![Fleurimond](./public/PASSPORT.png)
+![Fleurimond](../public/PASSPORT.png)
 
+
+https://johnfleurimond.github.io/PassportReactExpressNode/
 
 # How It's Made :nut_and_bolt:🔨 :hammer::wrench::
  This application is written with React.js, Express, Passport.
