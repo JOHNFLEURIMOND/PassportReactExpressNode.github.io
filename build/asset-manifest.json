@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/PassportReactExpressNode.github.io/static/css/main.9f41e47c.chunk.css",
-    "main.js": "/PassportReactExpressNode.github.io/static/js/main.c7652043.chunk.js",
-    "runtime-main.js": "/PassportReactExpressNode.github.io/static/js/runtime-main.9f460f3f.js",
-    "static/js/2.2fec15be.chunk.js": "/PassportReactExpressNode.github.io/static/js/2.2fec15be.chunk.js",
-    "index.html": "/PassportReactExpressNode.github.io/index.html",
-    "precache-manifest.b4be3fb043796c730ed21c129954ddf8.js": "/PassportReactExpressNode.github.io/precache-manifest.b4be3fb043796c730ed21c129954ddf8.js",
-    "service-worker.js": "/PassportReactExpressNode.github.io/service-worker.js",
-    "static/js/2.2fec15be.chunk.js.LICENSE": "/PassportReactExpressNode.github.io/static/js/2.2fec15be.chunk.js.LICENSE",
-    "static/media/footer-github.png": "/PassportReactExpressNode.github.io/static/media/footer-github.f6fb6f5d.png",
-    "static/media/instagram.png": "/PassportReactExpressNode.github.io/static/media/instagram.d566a5b6.png",
-    "static/media/spotify.png": "/PassportReactExpressNode.github.io/static/media/spotify.5044823b.png"
+    "main.css": "/PassportReactExpressNode/static/css/main.9f41e47c.chunk.css",
+    "main.js": "/PassportReactExpressNode/static/js/main.c7652043.chunk.js",
+    "runtime-main.js": "/PassportReactExpressNode/static/js/runtime-main.9250c85e.js",
+    "static/js/2.2fec15be.chunk.js": "/PassportReactExpressNode/static/js/2.2fec15be.chunk.js",
+    "index.html": "/PassportReactExpressNode/index.html",
+    "precache-manifest.aae7e15e7c22488db91ba585241cff22.js": "/PassportReactExpressNode/precache-manifest.aae7e15e7c22488db91ba585241cff22.js",
+    "service-worker.js": "/PassportReactExpressNode/service-worker.js",
+    "static/js/2.2fec15be.chunk.js.LICENSE": "/PassportReactExpressNode/static/js/2.2fec15be.chunk.js.LICENSE",
+    "static/media/footer-github.png": "/PassportReactExpressNode/static/media/footer-github.f6fb6f5d.png",
+    "static/media/instagram.png": "/PassportReactExpressNode/static/media/instagram.d566a5b6.png",
+    "static/media/spotify.png": "/PassportReactExpressNode/static/media/spotify.5044823b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f460f3f.js",
+    "static/js/runtime-main.9250c85e.js",
     "static/js/2.2fec15be.chunk.js",
     "static/css/main.9f41e47c.chunk.css",
     "static/js/main.c7652043.chunk.js"
